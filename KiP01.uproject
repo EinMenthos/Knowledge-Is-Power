@@ -3,6 +3,17 @@
 	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "KiP01",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SimpleSQLite",
